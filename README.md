@@ -13,7 +13,7 @@ python -m venv venv
 
 Activar el ambiente virtual
 
-venv/Scripts/activate
+source venv/Scripts/activate
 
 Instalar dependencias
 
