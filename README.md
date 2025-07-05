@@ -20,3 +20,6 @@ Instalar dependencias
 pip install "fastapi[standard]"
 
 Crear archivo requirements.txt para instalacion de proyecto posterior
+
+Correr Fastapi
+fastapi dev main.py

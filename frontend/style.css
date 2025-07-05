@@ -1,0 +1,56 @@
+body {
+    font-family:sans-serif;
+    margin: 40px;
+    background-color: #5f9aa0;
+}
+
+h1{
+    color:rgb(158, 19, 19);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    background-color: #547d81;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family:sans-serif;
+}
+
+input{
+    margin: 5px;
+    border-radius: 3px;
+    height: 1rem;
+}
+
+button{
+    border-radius: 3px;
+}
+
+table{
+    font-family: sans-serif;
+    margin-top: 20px;
+    background-color: #547d81;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+    background-color:#667274;
+}
+
+#btnguardar{
+    border-radius: 5px;
+    border-color: chartreuse;
+}
+
+#btncancelar{
+    border-radius: 5px;
+    border-color: rgb(255, 0, 21);
+}
+

@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Gestor de estudiantes</title>    
+        <title>Gestor de estudiantes</title>
+        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <h1> Lista de estudiantes </h1>
         <form id="formulario">
-        <label for="name">Nombre:</label><br>
-        <input type="text" id="name" name="name" value=""><br>
-        <label for="apellidos">Apellidos:</label><br>
+        <label for="matricula">Matricula:</label>
+        <input type="text" id="matricula" name="matricula value=""><br>
+        <label for="matricula">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value=""><br>
+        <label for="apellidos">Apellidos:</label>
         <input type="text" id="apellidos" name="apellidos" value=""><br><br>
-        <label for="genero">Genero:</label><br>
+        <label for="genero">Genero:</label>
         <select id="genero" name="genero">
             <option value="masculino">Masculino</option>
             <option value="femenino">Femenino</option>
             <option value="otro">Otro</option>
         </select><br><br>
-        <label for="direccion">Direccion:</label><br>
+        <label for="direccion">Direccion:</label>
         <input type="text" id="direccion" name="direccion" value=""><br>
-        <label for="telefono">Telefono:</label><br>
+        <label for="telefono">Telefono:</label>
         <input type="text" id="telefono" name="telefono" value=""><br><br>
-        <button type="submit"> Guardar </button>
-        <button type="submit"> Cancelar </button>
+        <button type="submit" id="btnguardar"> Guardar </button>
+        <button type="submit" id="btncancelar"> Cancelar </button>
         </form>
 
         <table>
@@ -42,4 +47,8 @@
             </tr>
         </table>
     </body>
+    
+    <script src="app.js"> 
+    </script>
+
 </html>

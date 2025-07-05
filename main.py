@@ -5,10 +5,19 @@ from fastapi.responses import JSONResponse
 from database import engine, inicializar_bd
 from sqlmodel import Session
 from models import Estudiante
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
 inicializar_bd()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+    allow_credentials=False
+)
 
 @app.get("/")
 def read_root():
